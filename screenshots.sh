@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /Users/sanfred/timetracker
+touch last_run
 DATE=`date +%Y-%m-%d`
 TIME=`date +%Y-%m-%d--%H-%M-%S`
 mkdir -p $DATE
