@@ -1,0 +1,6 @@
+This will take a screenshot of your screen(s) with your desired interval.
+
+How to install:
+0. Install imagemagick ("brew install imagemagick" will put it in /usr/local, if you have it elsewhere, edit the path to montage in screenshot_timer.sh)
+1. Edit screenshot_timer.sh to set the path to dump the images in.
+2. Edit com.sanfred.screenshot_timer.plist (with vim or Property List Editor) and set your interval and the correct path to screenshot_timer.sh.
